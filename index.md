@@ -25,4 +25,10 @@ Central legal pages for apps and games by Vexellab Solutions LLP.
 - [Terms and Conditions](/tiletribe/terms/)
 - [Delete Account](/tiletribe/delete-account/)
 
+## AdStatica
+
+- [Privacy Policy](/adstatica/privacy/)
+- [Terms and Conditions](/adstatica/terms/)
+- [Delete Account](/adstatica/delete-account/)
+
 For support or other questions, contact Vexellab through the [main website](https://www.vexellab.com/#contact).
