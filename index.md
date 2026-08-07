@@ -28,7 +28,7 @@ Central legal pages for apps and games by Vexellab Solutions LLP.
 ## AdStatica
 
 - [Privacy Policy](/adstatica/privacy/)
-- [Terms and Conditions](/adstatica/terms/)
+- [Terms of Use (EULA)](/adstatica/terms/)
 - [Delete Account](/adstatica/delete-account/)
 
 For support or other questions, contact Vexellab through the [main website](https://www.vexellab.com/#contact).

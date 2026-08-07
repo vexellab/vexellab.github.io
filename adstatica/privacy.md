@@ -85,7 +85,7 @@ Users can unlink publisher accounts in the app where supported. Unlinking remove
 - You can choose not to link a Google publisher account, but synced publisher analytics require linking.
 - You can unlink publisher accounts from the app where supported.
 - You can manage subscriptions through Apple, Google Play, or RevenueCat Customer Center where configured.
-- You can request account deletion if you cannot access the app or if an in-app deletion flow is not available.
+- You can delete your AdStatica account from Settings when signed in, or contact support if you cannot access the app.
 - You can contact support for privacy questions, account deletion help, or publisher-linking questions.
 
 ## 10. Security
@@ -108,5 +108,5 @@ For privacy questions, contact Vexellab through the [main website contact page](
 
 ## Related Pages
 
-- [Terms and Conditions](/adstatica/terms/)
+- [Terms of Use (EULA)](/adstatica/terms/)
 - [Account Deletion](/adstatica/delete-account/)
