@@ -7,6 +7,12 @@ permalink: /
 
 Central legal pages for apps and games by Vexellab Solutions LLP.
 
+## Gnos
+
+- [Privacy Policy](/gnos/privacy/)
+- [Terms and Conditions](/gnos/terms/)
+- [Your Data and Deletion](/gnos/data/)
+
 ## VEIL
 
 - [Privacy Policy](/veil/privacy/)
