@@ -55,15 +55,18 @@ search provider from receiving or retaining the query under its own policy.
   your broad area when you permit location access, as described below.
 - **Filter-list providers:** the source-browser component may retrieve EasyList
   and AdGuard filter data from their hosting infrastructure.
-- **GitHub Pages:** hosts these legal pages and may process technical visitor
-  information when you open them.
+- **GitHub Pages and site-asset delivery providers:** host these legal pages and
+  their supporting files and may process technical visitor information when you
+  open them. The current site theme loads a navigation script from Cloudflare's
+  cdnjs service.
 
 These providers operate under their own terms and privacy policies. Relevant
 references include [Google Privacy Policy](https://policies.google.com/privacy),
 [YouTube Terms of Service](https://www.youtube.com/t/terms),
 [Wikimedia Privacy Policy](https://foundation.wikimedia.org/wiki/Policy:Privacy_policy),
 [Apple Privacy Policy](https://www.apple.com/legal/privacy/), and
-[GitHub Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement).
+[GitHub Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement),
+and [Cloudflare Privacy Policy](https://www.cloudflare.com/privacypolicy/).
 
 ## 3. Location choices
 
