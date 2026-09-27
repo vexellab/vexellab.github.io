@@ -37,4 +37,10 @@ Central legal pages for apps and games by Vexellab Solutions LLP.
 - [Terms of Use (EULA)](/adstatica/terms/)
 - [Delete Account](/adstatica/delete-account/)
 
+## Chillara
+
+- [Privacy Policy](/chillara/privacy/)
+- [Terms of Use (EULA)](/chillara/terms/)
+- [Delete Account](/chillara/delete-account/)
+
 For support or other questions, contact Vexellab through the [main website](https://www.vexellab.com/#contact).
