@@ -63,7 +63,7 @@ Tether stores your progress, settings, analytics choice and content downloads on
 
 - Device-only data stays on your device until you reset progress in Settings or uninstall Tether.
 - Account data is kept until you delete your account.
-- You can delete your account at any time in Tether: Settings → your profile → **Delete account**. This permanently deletes your sign-in account, profile, synced progress, daily results, leaderboard entries, hint token balance and purchase records held by us.
+- You can delete your account at any time in Tether: Settings → your profile → **Delete account**. This permanently deletes your sign-in account, profile, synced progress, daily results, leaderboard entries, hint token balance and purchase records held by us, revokes Sign in with Apple access where used, and clears Tether data on that device.
 - Purchases made through Apple or Google remain in your store account and can be restored after signing in again.
 - If you can no longer open the app, see [Delete Account](/tether/delete-account/).
 
