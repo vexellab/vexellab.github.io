@@ -43,4 +43,9 @@ Central legal pages for apps and games by Vexellab Solutions LLP.
 - [Terms of Use (EULA)](/chillara/terms/)
 - [Delete Account](/chillara/delete-account/)
 
+## Wallrace
+
+- [Privacy Policy](/wallrace/privacy/)
+- [Terms of Use (EULA)](/wallrace/terms/)
+
 For support or other questions, contact Vexellab through the [main website](https://www.vexellab.com/#contact).
