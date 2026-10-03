@@ -49,4 +49,10 @@ Central legal pages for apps and games by Vexellab Solutions LLP.
 - [Terms of Use (EULA)](/wallrace/terms/)
 - [Delete Account](/wallrace/delete-account/)
 
+## Tether
+
+- [Privacy Policy](/tether/privacy/)
+- [Terms of Use (EULA)](/tether/terms/)
+- [Delete Account](/tether/delete-account/)
+
 For support or other questions, contact Vexellab through the [main website](https://www.vexellab.com/#contact).
