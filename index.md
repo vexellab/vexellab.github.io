@@ -47,5 +47,6 @@ Central legal pages for apps and games by Vexellab Solutions LLP.
 
 - [Privacy Policy](/wallrace/privacy/)
 - [Terms of Use (EULA)](/wallrace/terms/)
+- [Delete Account](/wallrace/delete-account/)
 
 For support or other questions, contact Vexellab through the [main website](https://www.vexellab.com/#contact).
