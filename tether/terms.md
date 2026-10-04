@@ -24,7 +24,7 @@ This license does not transfer ownership. Vexellab and its licensors retain all 
 
 ## 3. What Tether Is
 
-Tether is a single-player puzzle game: fill every light cell of a board with rune-anchored pieces across campaign worlds, daily challenges and events. An account is optional and only needed to sync progress, appear on daily leaderboards and make purchases. Tether is free to play, shows ads and offers optional in-app purchases.
+Tether is a single-player puzzle game: fill every light cell of a board with rune-anchored pieces across campaign worlds, daily challenges and events. An account is optional and only needed to sync progress and appear on daily leaderboards. Tether is free to play and shows ads.
 
 ## 4. Your Account
 
@@ -41,7 +41,7 @@ Tether is a single-player puzzle game: fill every light cell of a board with run
 
 ## 6. Purchases, Hint Tokens And Ads
 
-- Tether is free to download. Optional in-app purchases (Remove Ads, hint token packs and piece themes) are shown with their price in the app and processed by the Apple App Store or Google Play under that store's terms. Refunds are handled by the store.
+- Tether is free to download and currently has no in-app purchases. If optional purchases (such as Remove Ads, hint token packs or piece themes) are offered in the future, they will be shown with their price in the app and processed by the Apple App Store or Google Play under that store's terms. Refunds are handled by the store.
 - Hint tokens and themes are a limited license to use virtual items in Tether. They have no cash value, cannot be transferred or exchanged for money, and unused hint tokens are lost if you delete your account.
 - Remove Ads turns off ads between levels. Rewarded ads you choose to watch for a hint remain available.
 - Durable purchases (Remove Ads and themes) can be restored with Restore purchases after signing in with the same account.

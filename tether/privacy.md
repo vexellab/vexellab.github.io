@@ -8,7 +8,7 @@ permalink: /tether/privacy/
 Tether Legal  
 Last updated: October 4, 2026
 
-This Privacy Policy explains what information Tether handles. In short: you can play without an account. Optional analytics stay off unless you turn them on. If you sign in, we keep the minimum needed to sync your progress, run daily leaderboards and honour your purchases. Tether shows ads from Google AdMob unless you buy Remove Ads.
+This Privacy Policy explains what information Tether handles. In short: you can play without an account. Optional analytics stay off unless you turn them on. If you sign in, we keep the minimum needed to sync your progress and run daily leaderboards. Tether shows ads from Google AdMob.
 
 ## 1. Who We Are
 
@@ -20,13 +20,13 @@ Campaign levels, daily challenges, events and settings work without an account. 
 
 ## 3. Information We Collect If You Sign In
 
-Signing in with Apple or Google is optional. It lets you sync progress across devices, appear on daily leaderboards and buy items. If you sign in, we handle:
+Signing in with Apple or Google is optional. It lets you sync progress across devices and appear on daily leaderboards. If you sign in, we handle:
 
 - **Account identifiers** — a Firebase user ID, your email address and, if your provider shares it, your name. Apple users may choose to hide their email with Apple's private relay address.
 - **Profile** — the display name and profile mark you choose in Tether.
 - **Game progress** — stars, solved levels, streaks, daily history, hint token balance and owned themes, so we can sync them between devices.
 - **Daily challenge results** — your move count and stars for each daily puzzle, used to rank the daily leaderboard.
-- **Purchase records** — product IDs and transaction events for items you buy, so we can deliver hint tokens and restore purchases.
+- **Purchase records** — only if in-app purchases are offered and you buy something: product IDs and transaction events, so we can deliver items and restore purchases.
 - **Technical information** — standard server logs such as IP address and request times, kept briefly for security and to keep the service running.
 
 ## 4. Analytics (Off Unless You Turn It On)
@@ -35,21 +35,21 @@ Tether can send pseudonymous gameplay events (for example, level started or fini
 
 ## 5. Advertising
 
-Tether shows rewarded ads (only when you choose to watch one for a deeper hint) and occasional ads between levels, served by Google AdMob. Google may collect device information such as advertising identifiers, IP address and ad interaction data to serve and measure ads. Where required by law (for example in the EEA, UK and Switzerland), Tether asks for your consent through Google's consent form before requesting ads, and you can change your choice later in Settings → Ad privacy choices. Buying **Remove Ads** turns off ads between levels. See [Google's privacy policy](https://policies.google.com/privacy) and [how Google uses information from apps](https://policies.google.com/technologies/partner-sites).
+Tether shows rewarded ads (only when you choose to watch one for a deeper hint) and occasional ads between levels, served by Google AdMob. Google may collect device information such as advertising identifiers, IP address and ad interaction data to serve and measure ads. Where required by law (for example in the EEA, UK and Switzerland), Tether asks for your consent through Google's consent form before requesting ads, and you can change your choice later in Settings → Ad privacy choices. If a Remove Ads purchase is offered in the future, buying it turns off ads between levels. See [Google's privacy policy](https://policies.google.com/privacy) and [how Google uses information from apps](https://policies.google.com/technologies/partner-sites).
 
 ## 6. Purchases
 
-In-app purchases are processed by the Apple App Store or Google Play. We never see your payment card details. We use RevenueCat to validate purchases and keep track of what you own; RevenueCat receives your Firebase user ID, product IDs and transaction details. See [RevenueCat's privacy policy](https://www.revenuecat.com/privacy).
+Tether currently has no in-app purchases. If they are offered in the future, they will be processed by the Apple App Store or Google Play. We never see your payment card details. We would use RevenueCat to validate purchases and keep track of what you own; RevenueCat would receive your Firebase user ID, product IDs and transaction details. See [RevenueCat's privacy policy](https://www.revenuecat.com/privacy).
 
 ## 7. How We Use Information
 
 - To sign you in and sync your progress between devices.
 - To run daily challenges and leaderboards.
-- To deliver and restore purchases and hint tokens.
+- To deliver and restore purchases, if any are offered.
 - To show ads and, with your consent, measure how the game is played.
 - To prevent abuse, fix problems and keep the service reliable.
 
-We do not sell your personal information. We share it only with the service providers listed in this policy (Google Firebase, Google AdMob, RevenueCat and our hosting provider) acting for us, or where the law requires it.
+We do not sell your personal information. We share it only with the service providers listed in this policy (Google Firebase, Google AdMob, our hosting provider and, if purchases are offered, RevenueCat) acting for us, or where the law requires it.
 
 ## 8. What Other Players See
 
