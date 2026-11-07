@@ -56,14 +56,35 @@ private information, spam, impersonation or material that infringes others'
 rights. Do not manipulate ratings, misuse accounts, bypass service restrictions,
 or interfere with devices, networks or other users.
 
-To report an objectionable review, privacy issue or rights concern, use
-**Profile → Contact** or [Contact Vexellab](https://www.vexellab.com/#contact).
-Identify Gnos, the song, the reviewer's displayed name, the review text or a
-screenshot, and why you are reporting it. Do not include passwords or unnecessary
-private information. There is no dedicated in-app report or user-blocking
-control in this experience. We do not promise automated screening, a particular
-moderation response time or that every review will be checked before display.
-We may restrict accounts or remove content to address misuse or legal concerns.
+On another person's review, open its menu and choose **Report review**. Select
+spam or advertising, harassment or hate, sexual or violent content, personal
+information, not about the song, or other. You may add up to 500 characters of
+detail. Reports are private moderation records, not community posts. Only one
+report per account per review is recorded, including repeat submissions.
+A successful report hides that review from your community list while the report
+is open or actioned. A dismissed report no longer hides it for you unless it is
+globally hidden or the author is blocked. Reporting is limited to ten requests
+per hour per account.
+
+Choose **Block author** in the same menu to hide that author's reviews from your
+community list. Manage or undo blocks in **Profile → Blocked users**. Blocking
+does not remove the author's account or change global rating averages/counts.
+It is a viewing preference, not a guarantee that the author cannot see your
+public reviews.
+
+A review is automatically hidden from community lists and rating aggregates
+after three distinct accounts have open reports against it. Administrators can
+hide reviews or dismiss reports in a private moderation queue. Dismissing a
+report does not itself restore hidden content. Hidden reviews remain available
+to their authors to manage or delete, and editing does not automatically restore
+them. We do not promise a particular moderation response time or that every
+review will be checked before display.
+
+For additional privacy or rights concerns, use **Profile → Contact** or
+[Contact Vexellab](https://www.vexellab.com/#contact). Identify Gnos, the song,
+the reviewer's displayed name and your concern. Do not include passwords or
+unnecessary private information. We may restrict accounts or remove content to
+address misuse or legal concerns.
 
 ## 4. Third-party catalog and intellectual property
 

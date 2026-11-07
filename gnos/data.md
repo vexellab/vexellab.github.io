@@ -26,8 +26,9 @@ or its server-held reviews and favorites.
 
 This action cannot be undone. A successful request deletes the account and its
 associated reviews, ratings, favorites, account sessions and email-action tokens
-from the active database. Removing reviews also changes the related aggregate
-ratings and counts. It does not delete songs or artwork at the catalog source,
+from the active database, along with reports made by the account, reports on its
+deleted reviews, and blocks made by or against it. Removing reviews also changes
+the related aggregate ratings and counts. It does not delete songs or artwork at the catalog source,
 a Google/YouTube account, or copies other users have made of public reviews.
 
 If you have forgotten your password, use **Forgot password?** on the sign-in
@@ -43,6 +44,15 @@ password or reset/verification links to support.
 | Entire rating/review | Open the song, select **Delete** for your review and confirm **Delete**. This removes both the rating and optional text. |
 | Favorite | Open the song from **Favorites** or **Discover** and tap its selected heart to remove it. |
 | Current sign-in session | **Profile → Sign out**, then confirm **Sign out**. Your reviews and favorites stay with your account. |
+| Blocked authors | Another person's review menu → **Block author**. Use **Profile → Blocked users** to unblock. Blocks hide the author's reviews from your community list, not global rating aggregates. |
+| Review reports | Another person's review menu → **Report review**, choose a reason and optionally add up to 500 characters. Reports are private moderation records. There is no in-app report edit/withdraw control. Contact support for related data requests. |
+
+Deleting your review also deletes its associated reports. A moderation-hidden
+review remains available to you to edit or delete, but editing does not restore
+community visibility. Hidden reviews are excluded from community rating
+aggregates. Reports otherwise remain linked to the review and reporter account,
+including resolved reports, with no fixed separate expiry currently defined.
+Unblocking deletes that block record from the active database.
 
 Your reviews and display name are community-visible to other eligible signed-in
 users. Favorites are returned for your own account and are not published as a
@@ -87,11 +97,20 @@ or favorite is saved. Deleting Gnos account data does not erase requests held by
 those providers. Use their own privacy/account controls, including the
 [Google Privacy Policy](https://policies.google.com/privacy) for Google services.
 
-To report an objectionable review or privacy/rights concern, use **Profile →
-Contact** or the [Vexellab contact page](https://www.vexellab.com/#contact).
-Include the song, reviewer's displayed name, the review text or screenshot and
-the reason for your concern. The current experience does not have a dedicated
-in-app report or user-blocking button.
+To report an objectionable review, open its menu and choose **Report review**.
+Reasons cover spam, harassment, sexual or violent content, personal information,
+off-topic content and other concerns. Three distinct open reports automatically
+hide a review pending moderation. Administrators can hide content or dismiss
+reports. Dismissal alone does not restore hidden content. A successful report also hides that review from your community list while open
+or actioned. Dismissal removes that personal filter, but does not override a
+global hide or author block. Reporting is limited to ten requests per hour per
+account. No moderation response deadline is promised. Use **Block author** to hide that author's reviews for
+your account and **Profile → Blocked users** to unblock.
+
+For additional privacy/rights concerns, use **Profile → Contact** or the
+[Vexellab contact page](https://www.vexellab.com/#contact). Include the song,
+reviewer's displayed name and reason for your concern, without unnecessary
+private information.
 
 **Vexellab Solutions LLP**
 

@@ -47,6 +47,28 @@ whether you have favorited a song are returned for your own account, not
 published as a community favorites list. Private does not mean inaccessible to
 the service operators or infrastructure needed to provide the service.
 
+### Reports, moderation and blocks
+
+When you use **Report review** on another person's review, we store the review
+and reporter account associations, selected reason, optional details (up to
+500 characters), creation time, moderation status and resolution time when set.
+Reports are private to service moderation, not included in community responses
+or shared with the reported author through the review API. Administrators can
+access these records to address abuse. Do not include unnecessary sensitive
+information in report details. One report per account per review is recorded.
+Successful reporting also hides the review from your community list while the
+report is open or actioned. Dismissal removes this personal filter, unless the
+review remains globally hidden or its author is blocked. Reporting is limited
+to ten requests per hour per account.
+
+We store blocks with the blocking and blocked account associations and creation
+time. **Block author** hides that author's reviews from your community list.
+Your block list is available in **Profile → Blocked users**, where you can
+unblock. Blocking does not change global rating averages or counts. Separately,
+moderation-hidden reviews are excluded from community lists and aggregates.
+Three distinct open reports automatically hide a review pending moderation.
+The author can still access and manage their own hidden review.
+
 ## 3. Catalog, search and service providers
 
 Discover and search use third-party song metadata and artwork, including
@@ -91,9 +113,14 @@ and address legal obligations. If you contact us, we receive the details,
 messages and attachments you choose to send.
 
 Account information, reviews and favorites remain until changed or deleted.
-Deleting a review removes its rating and text from the active review database.
+Deleting a review removes its rating, text and associated reports from the active
+review database. Reports otherwise remain with the review and reporter account,
+including after resolution, with no fixed separate expiry currently defined.
+Blocks remain until unblocked or either associated account is deleted.
 Deleting an account removes the account and its associated reviews, favorites,
-sessions and email-action tokens from the active database. Administrative audit
+sessions and email-action tokens from the active database. It also removes
+reports submitted by that account, reports on its deleted reviews, and blocks
+made by or against that account. Administrative audit
 records can survive account deletion with their actor link removed.
 
 Backend cleanup routines target expired/consumed email-action tokens after one
