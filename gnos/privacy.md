@@ -12,8 +12,7 @@ Last updated: November 7, 2026
 This policy describes the public, free song-review experience in **Gnos**,
 operated by **Vexellab Solutions LLP** ("Vexellab", "we", "us"). It covers
 finding songs, publishing ratings and reviews, saving favorites, and managing
-your account. This experience is not a music player and does not offer music
-streaming or downloads.
+your account.
 
 ## 1. Account information
 

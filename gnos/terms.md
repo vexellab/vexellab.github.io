@@ -17,8 +17,7 @@ you agree to these terms. If you do not agree, stop using it.
 
 Gnos lets you discover song metadata, search songs or artists, publish ratings
 and optional written reviews, read community reviews and keep account-linked
-favorites. This public experience is not a music player and does not provide
-streaming, downloads, playback controls or music ownership. It has no in-app
+favorites. It has no in-app
 purchase or subscription flow.
 
 You must sign in to enter this experience. Review and favorite access requires
