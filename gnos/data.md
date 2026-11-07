@@ -44,7 +44,7 @@ password or reset/verification links to support.
 | Entire rating/review | Open the song, select **Delete** for your review and confirm **Delete**. This removes both the rating and optional text. |
 | Favorite | Open the song from **Favorites** or **Discover** and tap its selected heart to remove it. |
 | Current sign-in session | **Profile → Sign out**, then confirm **Sign out**. Your reviews and favorites stay with your account. |
-| Blocked authors | Another person's review menu → **Block author**. Use **Profile → Blocked users** to unblock. Blocks hide the author's reviews from your community list, not global rating aggregates. |
+| Blocked authors | Another person's review menu → **Block user**. Use **Profile → Blocked users** to unblock. Blocks hide the author's reviews from your community list, not global rating aggregates. |
 | Review reports | Another person's review menu → **Report review**, choose a reason and optionally add up to 500 characters. Reports are private moderation records. There is no in-app report edit/withdraw control. Contact support for related data requests. |
 
 Deleting your review also deletes its associated reports. A moderation-hidden
@@ -104,7 +104,7 @@ hide a review pending moderation. Administrators can hide content or dismiss
 reports. Dismissal alone does not restore hidden content. A successful report also hides that review from your community list while open
 or actioned. Dismissal removes that personal filter, but does not override a
 global hide or author block. Reporting is limited to ten requests per hour per
-account. No moderation response deadline is promised. Use **Block author** to hide that author's reviews for
+account. No moderation response deadline is promised. Use **Block user** to hide that author's reviews for
 your account and **Profile → Blocked users** to unblock.
 
 For additional privacy/rights concerns, use **Profile → Contact** or the

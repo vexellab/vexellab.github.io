@@ -62,7 +62,7 @@ review remains globally hidden or its author is blocked. Reporting is limited
 to ten requests per hour per account.
 
 We store blocks with the blocking and blocked account associations and creation
-time. **Block author** hides that author's reviews from your community list.
+time. **Block user** hides that author's reviews from your community list.
 Your block list is available in **Profile → Blocked users**, where you can
 unblock. Blocking does not change global rating averages or counts. Separately,
 moderation-hidden reviews are excluded from community lists and aggregates.

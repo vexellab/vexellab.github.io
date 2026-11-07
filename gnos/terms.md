@@ -66,7 +66,7 @@ is open or actioned. A dismissed report no longer hides it for you unless it is
 globally hidden or the author is blocked. Reporting is limited to ten requests
 per hour per account.
 
-Choose **Block author** in the same menu to hide that author's reviews from your
+Choose **Block user** in the same menu to hide that author's reviews from your
 community list. Manage or undo blocks in **Profile → Blocked users**. Blocking
 does not remove the author's account or change global rating averages/counts.
 It is a viewing preference, not a guarantee that the author cannot see your
