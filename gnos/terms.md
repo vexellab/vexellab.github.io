@@ -7,118 +7,122 @@ permalink: /gnos/terms/
 
 Gnos Legal
 
-Last updated: September 13, 2026
+Last updated: November 7, 2026
 
-These terms govern your use of Gnos, provided by **Vexellab Solutions LLP**
-(“Vexellab”, “we”, “us”). By using Gnos, you agree to these terms. If you do not
-agree, stop using the app.
+These terms govern the public, free song-review experience in Gnos, provided by
+**Vexellab Solutions LLP** ("Vexellab", "we", "us"). By using this experience,
+you agree to these terms. If you do not agree, stop using it.
 
-## 1. The application
+## 1. The service and your account
 
-Gnos provides music discovery, playback controls, bookmarks, explicit favorites,
-local playlists, imported collection references, and listening-based suggestions.
-Features depend on your device, network, permissions, and third-party services.
-No Vexellab user account is required in the current app.
+Gnos lets you discover song metadata, search songs or artists, publish ratings
+and optional written reviews, read community reviews and keep account-linked
+favorites. This public experience is not a music player and does not provide
+streaming, downloads, playback controls or music ownership. It has no in-app
+purchase or subscription flow.
 
-For copies obtained through the Apple App Store, Apple’s
+You must sign in to enter this experience. Review and favorite access requires
+email verification. Supply an email address you control and an appropriate
+display name, protect your credentials and do not impersonate others. Your
+password-reset and verification links are private account credentials. Follow
+the store's age rating and applicable requirements for parental permission.
+
+For copies obtained through the Apple App Store, Apple's
 [Standard Licensed Application End User License Agreement](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/)
-applies to the application license where applicable. These Gnos-specific terms
-supplement service use and do not reduce rights provided by that agreement or
-mandatory consumer law.
+applies to the application license where applicable. These service terms do not
+reduce mandatory consumer rights or rights under that agreement.
 
-## 2. Independent service and third-party content
+## 2. Ratings, reviews and favorites
 
-Gnos is independently developed. It is not affiliated with, endorsed by, or
-sponsored by Google, YouTube, YouTube Music, or Apple. Third-party names and marks
-belong to their respective owners. Source attribution identifies the service
-used; it does not indicate an official partnership.
+You can submit one rating/review per song and update or delete it. Ratings are
+one to five stars. Written reviews are optional and limited to 2,000 characters.
+Your review, rating, display name and timestamps are visible in the community
+experience to other eligible signed-in users. Ratings contribute to aggregate
+averages and review counts. Do not treat "My Reviews" as private storage.
+Favorites are account-linked but are not published as a community favorites list.
 
-Music, videos, artwork, metadata, and other third-party materials remain the
-property of their owners. Bookmarking, favoriting, importing a collection, or
-using Gnos does not purchase content, transfer copyright, or grant a license to
-copy, redistribute, publicly perform, or commercially exploit it.
+You retain rights you have in your original review text. By submitting it, you
+authorize us to store, reproduce and display it with your display name and to
+use its rating in service summaries as needed to provide Gnos. This permission
+does not transfer ownership of your writing. Deletion removes the review from
+the active service, subject to the retention limitations in the
+[Privacy Policy](/gnos/privacy/). Other people may have already viewed or copied
+public material.
 
-Your access to third-party services is also subject to their applicable terms,
-including [YouTube’s Terms of Service](https://www.youtube.com/t/terms) and
-[Google’s Terms of Service](https://policies.google.com/terms). These Gnos terms
-do not grant authorization that must come from a content owner or service.
+## 3. Community rules and concerns
 
-## 3. Permitted use
+Post your genuine opinions about songs. Do not submit unlawful content,
+harassment, threats, hate, sexually exploitative material, another person's
+private information, spam, impersonation or material that infringes others'
+rights. Do not manipulate ratings, misuse accounts, bypass service restrictions,
+or interfere with devices, networks or other users.
 
-Use Gnos only for lawful purposes and content you are permitted to access. Do not
-use it for infringement, unauthorized redistribution, unlawful file sharing,
-abuse, fraud, or attempts to compromise devices or services. Do not attempt to
-bypass access restrictions or interfere with other users or providers.
+To report an objectionable review, privacy issue or rights concern, use
+**Profile → Contact** or [Contact Vexellab](https://www.vexellab.com/#contact).
+Identify Gnos, the song, the reviewer's displayed name, the review text or a
+screenshot, and why you are reporting it. Do not include passwords or unnecessary
+private information. There is no dedicated in-app report or user-blocking
+control in this experience. We do not promise automated screening, a particular
+moderation response time or that every review will be checked before display.
+We may restrict accounts or remove content to address misuse or legal concerns.
 
-You must meet applicable store and source-service age requirements. A parent or
-guardian must provide supervision or permission where required by law.
+## 4. Third-party catalog and intellectual property
 
-## 4. Local library and data
+Catalog metadata, song titles, artist names and artwork come from third-party
+sources. They and their associated marks remain subject to their owners' rights.
+A rating, review or favorite does not grant rights to copy, distribute, perform
+or commercially exploit a recording or artwork.
 
-Library entries and imports store references and metadata, not ownership of
-music recordings. Explicit favorites are independent of saved collections.
-Local playlists and preferences can be lost through deletion, device failure,
-operating-system changes, or reset actions. The current app does not provide a
-Vexellab cloud-sync or backup account.
+Gnos is independently developed and is not affiliated with, endorsed by or
+sponsored by Google, YouTube, YouTube Music or Apple. Use of source services is
+also subject to their applicable terms, including
+[YouTube's Terms of Service](https://www.youtube.com/t/terms) and
+[Google's Terms of Service](https://policies.google.com/terms).
 
-Review the [Privacy Policy](/gnos/privacy/) and
-[Your Data & Deletion](/gnos/data/) for information about device storage,
-network providers, location, and data controls.
+## 5. Availability and data controls
 
-## 5. Availability and accuracy
+Internet access and available third-party catalog services are needed for
+network features. Metadata, artwork, community opinions and ratings may be
+incomplete, inaccurate or unavailable. A review or saved favorite does not
+guarantee that catalog information will remain available. We may change or
+discontinue features as technology, source availability or requirements change.
+Connectivity and third-party charges are your responsibility under your
+agreements with the relevant providers.
 
-Content may be removed, restricted, changed, or made unavailable by its provider.
-Search results, recommendations, artwork, chart information, and metadata may be
-incomplete or inaccurate. A saved reference does not guarantee future playback.
-Internet access is required for streaming; device and network conditions affect
-quality, buffering, and background playback.
+You can change your display name, manage reviews and favorites, sign out or
+delete your account in the app. Signing out or uninstalling does not delete
+server-held account data. See [Your Data & Deletion](/gnos/data/) and the
+[Privacy Policy](/gnos/privacy/) for controls and retention limits.
 
-We may update or discontinue features as source interfaces, technology, or legal
-requirements change. We do not guarantee uninterrupted service, availability of
-every recording, a particular audio quality, or an advertisement-free experience
-in third-party source pages.
+## 6. Disclaimers and responsibility
 
-## 6. Purchases
-
-The current Gnos build does not include in-app subscriptions or purchases.
-Charges for connectivity, mobile data, or third-party services are governed by
-your agreements with the respective providers.
-
-## 7. Disclaimers and responsibility
-
-To the extent permitted by applicable law, Gnos is provided “as is” and “as
-available”, without additional warranties of uninterrupted operation, accuracy,
-or fitness for a particular purpose. Vexellab is not responsible for third-party
-content, provider outages, or changes outside its control.
+To the extent permitted by applicable law, Gnos is provided "as is" and "as
+available", without additional warranties of uninterrupted operation, accuracy
+or fitness for a particular purpose. User reviews express their authors'
+opinions, not endorsements by Vexellab. We are not responsible for third-party
+outages or changes outside our control.
 
 To the extent permitted by law, Vexellab will not be liable for indirect,
-incidental, special, or consequential losses arising from use of the app. Nothing
-in these terms excludes liability or consumer rights that cannot lawfully be
-excluded, or overrides applicable rights under the store’s license agreement.
+incidental, special or consequential losses arising from use of the app. Nothing
+here excludes liability or consumer rights that cannot lawfully be excluded,
+or overrides applicable rights under the store's license agreement.
 
-## 8. Support, suspension, and governing law
+## 7. Support and changes
 
-Vexellab provides support for Gnos through the contact page below. Apple and
-other distribution platforms are not responsible for providing Gnos-specific
-maintenance or support except as their applicable terms require.
-
-We may restrict access where reasonably necessary to address misuse, security
-issues, legal obligations, or loss of source availability. You may stop using
-Gnos and remove the app at any time.
+Vexellab provides Gnos support through the contact page below. Distribution
+platforms are not responsible for Gnos-specific support except as their terms
+require. You may stop using Gnos at any time and delete your account through the
+available controls.
 
 These terms are governed by the laws of India, with jurisdiction in Kerala,
 India, except where mandatory laws or consumer protections applicable to you
-require otherwise. Changes to these terms will be published here, with notice
-where required by law.
+require otherwise. Updated terms will be published here, with notice where
+required by law.
 
-## 9. Contact and rights concerns
+## 8. Contact
 
 **Vexellab Solutions LLP**
 
 [Contact Vexellab](https://www.vexellab.com/#contact)
-
-For a rights concern, identify the content/reference and explain your concern.
-Content removal at its original source should also be requested from the source
-provider or rights owner; Gnos does not control their catalog.
 
 [Privacy Policy](/gnos/privacy/) · [Your Data & Deletion](/gnos/data/)

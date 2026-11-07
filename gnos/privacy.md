@@ -7,153 +7,129 @@ permalink: /gnos/privacy/
 
 Gnos Legal
 
-Last updated: September 13, 2026
+Last updated: November 7, 2026
 
-This policy explains how **Gnos**, operated by **Vexellab Solutions LLP**
-(“Vexellab”, “we”, “us”), handles information when you browse music, play content,
-save your library, use discovery features, or contact us.
+This policy describes the public, free song-review experience in **Gnos**,
+operated by **Vexellab Solutions LLP** ("Vexellab", "we", "us"). It covers
+finding songs, publishing ratings and reviews, saving favorites, and managing
+your account. This experience is not a music player and does not offer music
+streaming or downloads.
 
-Gnos is independently developed software. It is not affiliated with, endorsed
-by, or sponsored by Google, YouTube, YouTube Music, or Apple.
+## 1. Account information
 
-## 1. Information stored on your device
+An account is required to enter this experience. We process your email address,
+display name, password in hashed form, account identifier, email-verification
+status, account status and creation/sign-in information. The app calls your
+display name "Name" or "Your name". It is not a separate unique username.
 
-Gnos stores the following locally to provide its features:
+We also store session records, a generated device identifier, device label,
+platform, session creation/last-use/expiry information, and revocation state.
+These support sign-in, session renewal, account protection and sign-out. Your
+email is used for verification and password-reset messages. Delivery involves
+our configured email service and your email provider. Do not share those links
+or your password with anyone, including support.
 
-- Songs you explicitly mark as favorites; saved albums, artists, and playlists;
-  imported collection metadata and track references; and playlists you create.
-- Recently played songs and listening preferences, including listening duration,
-  qualified plays, completions, and early skips used for recommendations.
-- Up to five recent search keywords in the current search-history list. A keyword
-  is added when playback selected from that search is confirmed, rather than on
-  every keystroke or search request.
-- Playback/discovery preferences and the most recently detected broad country,
-  administrative area, locality, and location-cache timestamp when available.
-- Cached artwork and temporary source information needed to load content.
+Review and favorite API access requires a signed-in, email-verified account.
 
-Saving a collection does not mark its songs as favorites. Collection metadata is
-separate from explicit favorite selections. Bookmarks and artwork caches are not
-downloads of music recordings for offline ownership or redistribution.
+## 2. Public reviews and private favorites
 
-The current app does not require a Vexellab account and does not include a
-Vexellab-hosted library-sync, advertising, or analytics backend. Device operating
-systems may include app data in backups according to your device settings.
+When you submit a review, our server stores its song identifier, title, artist,
+artwork reference, one-to-five-star rating, optional review text, timestamps and
+account association. Your display name, rating, review text, song information
+and review timestamps are visible to other eligible signed-in users in
+**Community reviews**. Ratings also contribute to song averages and counts.
+"My Reviews" is a management view, not a private-review setting. Your email
+address is not included in community review responses. Avoid putting private
+information in your name or review text.
 
-## 2. Network requests and third-party services
+Favorites are stored with your account on our server, including the song
+identifier, metadata, artwork reference and time saved. The favorites list and
+whether you have favorited a song are returned for your own account, not
+published as a community favorites list. Private does not mean inaccessible to
+the service operators or infrastructure needed to provide the service.
 
-Music features require network requests. Providers can receive your IP address,
-request timing, user-agent/client information, and the content or query requested.
-Not saving a query in Gnos’s local recent-search list does **not** prevent a
-search provider from receiving or retaining the query under its own policy.
+## 3. Catalog, search and service providers
 
-- **YouTube, YouTube Music, Google and their content-delivery services:** receive
-  search queries, content identifiers, catalog/playlist requests, artwork requests,
-  playback requests, and relevant country/language or source-session context.
-- **Wikipedia/Wikimedia:** may receive submitted search queries to retrieve
-  optional reference information shown with search results.
-- **Platform location/geocoding providers:** may process coordinates to determine
-  your broad area when you permit location access, as described below.
-- **Filter-list providers:** the source-browser component may retrieve EasyList
-  and AdGuard filter data from their hosting infrastructure.
-- **GitHub Pages and site-asset delivery providers:** host these legal pages and
-  their supporting files and may process technical visitor information when you
-  open them. The current site theme loads a navigation script from Cloudflare's
-  cdnjs service.
+Discover and search use third-party song metadata and artwork, including
+YouTube Music/Google services. Queries can be sent while you type after a short
+pause, not only when you submit a search. Providers receive the query or
+requested content identifiers and technical information such as your IP address,
+request timing and client details. Artwork requests go to the relevant image
+hosts. Catalog requests can include language, country and provider-session
+context. Not retaining a query in an on-device history does not prevent a
+provider from receiving it.
 
-These providers operate under their own terms and privacy policies. Relevant
-references include [Google Privacy Policy](https://policies.google.com/privacy),
-[YouTube Terms of Service](https://www.youtube.com/t/terms),
-[Wikimedia Privacy Policy](https://foundation.wikimedia.org/wiki/Policy:Privacy_policy),
-[Apple Privacy Policy](https://www.apple.com/legal/privacy/), and
-[GitHub Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement),
-and [Cloudflare Privacy Policy](https://www.cloudflare.com/privacypolicy/).
+Our account/review backend receives authenticated requests, song identifiers
+used for review summaries/details, and information you submit. Hosting,
+database, email and security infrastructure process information to operate
+these functions. Server and proxy logs can include technical request details,
+IP addresses, status codes and timestamps. Rate-limit records help prevent
+abuse. Administrative audit and operational records support security and
+troubleshooting. Backend error monitoring can use Sentry when configured.
 
-## 3. Location choices
+Opening these legal pages or the contact website also makes requests to their
+hosting and site-asset providers. These legal pages are configured for a
+GitHub Pages theme. Third-party services handle their own processing under
+their policies, including the
+[Google Privacy Policy](https://policies.google.com/privacy) and
+[GitHub Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement).
 
-Location access is optional and is used for regional music discovery. Gnos uses
-the device’s permission system and a one-shot location/geocoding flow; it does
-not request background location access. Coordinates can be sent to the device’s
-geocoding provider, such as Apple, Google, or another platform provider, to obtain
-an area name.
+## 4. Local storage
 
-Gnos stores the derived broad area, not the coordinates, in its discovery
-preferences. A cached area may be reused for about a day before another silent
-check; it may remain available when a later check fails. You can revoke location
-permission in your device settings. A previously saved broad area can remain
-until refreshed or app data is removed. Without location access, discovery can
-use device country settings and general catalog content.
+The app stores account/session information and a generated device identity
+using platform secure storage so it can restore your session. Preferences,
+cached artwork and catalog/provider-session data may also remain on the device.
+Signing out removes the app's stored account session, but is not a general
+clear-all-storage operation. Device storage, keychain and backup behavior depend
+on the operating system and your settings. Uninstalling is not account deletion
+and may not remove every secure-storage or backed-up item.
 
-## 4. Embedded browser and provider sessions
+## 5. Purposes and retention
 
-Gnos includes a source-browser component that can initialize during app use.
-Third-party pages may use cookies, browser storage, or their own analytics and
-advertising technologies. Browser data can persist across launches.
+We use information to provide accounts and community reviews, maintain your
+favorites, send account-action emails, respond to support, protect the service
+and address legal obligations. If you contact us, we receive the details,
+messages and attachments you choose to send.
 
-If you sign into a provider through its page, that provider handles the sign-in.
-Gnos may use source cookies and session values on the device for requests sent
-back to that provider. Gnos does not ask you to provide a Google password to
-Vexellab or upload provider-session credentials to a Vexellab account server.
-Gnos’s local data controls do not delete your Google account or provider-held data.
+Account information, reviews and favorites remain until changed or deleted.
+Deleting a review removes its rating and text from the active review database.
+Deleting an account removes the account and its associated reviews, favorites,
+sessions and email-action tokens from the active database. Administrative audit
+records can survive account deletion with their actor link removed.
 
-## 5. Support information and use of information
+Backend cleanup routines target expired/consumed email-action tokens after one
+day, expired/revoked sessions after 30 days, audit events after 90 days and
+operational events after seven days, subject to cleanup execution. These are
+cleanup eligibility periods, not promises that every copy is erased at that
+instant. Server logs, support correspondence, email-provider records and backups
+have separate retention. We do not promise a fixed deletion deadline for these
+copies or control third-party retention.
 
-If you contact Vexellab, we receive the contact details, messages, and attachments
-you choose to send. Please avoid sending passwords, signed media URLs, or other
-secrets. We use support information to respond, diagnose reported problems,
-maintain the service, and meet applicable legal obligations.
+## 6. Controls, requests and security
 
-Local app information is used to organize your library, maintain preferences,
-show recent activity, improve recommendations, and provide the features you
-request. We do not sell personal information received through Gnos support or
-operate an app-specific data-broker service.
+Use **Profile → Your name** to change your display name, a song's review editor
+to update or delete your review, and its heart control to remove a favorite.
+Use **Profile → Delete account**, enter your current password and confirm to
+delete your account. See [Your Data & Deletion](/gnos/data/) for instructions.
 
-## 6. Retention and deletion
+For access, correction, deletion or other privacy requests concerning information
+we hold, use [Contact Vexellab](https://www.vexellab.com/#contact). Depending on
+applicable law, you may have additional privacy rights. We may need to verify
+that a request concerns your account. We cannot remove copies another person
+has made of a public review or erase information held independently by another
+provider. No storage or network system is completely secure.
 
-Saved library information generally remains until you change it, reset the
-library, or remove app data. Recent-play history and recommendation statistics
-are bounded local records and can be cleared in Settings. Artwork cache eviction
-is managed automatically; covers can also be cleared manually and may download
-again when needed. Temporary source URLs expire and can be refreshed.
+## 7. Children and changes
 
-Settings includes **Clear search history**, **Clear listening history**,
-**Clear artwork cache**, and **Reset library**. These controls affect different
-data categories. Reset library removes favorites, saved collections, local
-playlists, and stored collection-track metadata; it does not delete content from
-YouTube. Clear search history also clears legacy local recent-query records.
+Gnos is not specifically designed for children. Follow the applicable store age
+rating and any legal requirements for parental permission. Do not publish a
+child's private information in reviews. Contact us if you believe a child has
+provided personal information without appropriate authorization.
 
-To remove remaining preferences, location cache, and browser data, use available
-device app-data controls or delete the app. On iOS, offloading an app can retain
-its documents and data; deleting it is different. Device backups or subsequent
-restoration can restore data. Provider-held information and support messages
-require separate requests to the relevant provider or Vexellab.
+We may update this policy as the experience changes. The revision date appears
+above. Any notice required by applicable law will be provided.
 
-See [Your Data & Deletion](/gnos/data/) for practical instructions.
-
-## 7. Your rights and security
-
-Depending on applicable law, you may have rights to request access, correction,
-deletion, restriction, portability, or objection relating to personal information
-we hold. Contact us through the link below. Vexellab cannot retrieve or remotely
-delete library data stored only on your device; use the in-app/device controls
-for that data. Requests regarding Google or other providers should also be
-directed to those providers.
-
-Network requests use HTTPS where supported by the app’s source interfaces, and
-local information is stored in the app’s device storage. No storage or network
-system can be guaranteed completely secure.
-
-## 8. Children and changes
-
-Gnos is a general music application, not a service designed specifically for
-children. Content may not be suitable for every age. Follow the app store’s age
-rating, applicable law, and each content provider’s age requirements. Contact us
-if you believe a child has supplied personal information to Vexellab support
-without appropriate authorization.
-
-We may update this policy as app behavior or requirements change. The updated
-date appears above. Material changes will be communicated as required by law.
-
-## 9. Contact
+## 8. Contact
 
 **Vexellab Solutions LLP**
 
