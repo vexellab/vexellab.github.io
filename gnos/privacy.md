@@ -7,7 +7,7 @@ permalink: /gnos/privacy/
 
 Gnos Legal
 
-Last updated: November 7, 2026
+Last updated: November 8, 2026
 
 This policy describes the public, free song-review experience in **Gnos**,
 operated by **Vexellab Solutions LLP** ("Vexellab", "we", "us"). It covers
@@ -29,6 +29,22 @@ our configured email service and your email provider. Do not share those links
 or your password with anyone, including support.
 
 Review and favorite API access requires a signed-in, email-verified account.
+
+### Account eligibility checks
+
+After successful registration or sign-in, our backend shares your normalized
+account email address with Vexellab's Supabase-hosted premium-status integration
+to check account eligibility. The email is sent in an HTTPS POST JSON body, not
+in the request URL. No passwords or session tokens are sent to this integration,
+and this check does not add your email to application logs. A boolean
+`is_premium` response is used to update the existing premium-status field on
+your account when it is `true`. A `false` response, failed request or short
+request timeout leaves your existing status unchanged.
+
+The provider currently returns premium status for an email address without
+requiring authentication. Someone who knows your email address may therefore
+be able to learn your account eligibility through that public endpoint. We do
+not promise control over that endpoint or the provider's retention of requests.
 
 ## 2. Public reviews and private favorites
 
